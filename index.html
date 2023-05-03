@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Crie seu Evento</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>
+          Crie e compartilhe <br />
+          seu evento.
+        </h1>
+        <h3>
+          O primeiro passo, é preencher esse <br />
+          formulário de inscrição.
+        </h3>
+      </header>
+
+      <form id="event" action="#">
+        <fieldset>
+          <h2>Informações do Evento</h2>
+          <hr />
+
+          <label for="title">Título do envento</label>
+          <span>(mínimo 8 caracteres)</span> <br />
+          <input id="title" type="text" minlength="8" required /> <br />
+
+          <label for="url">Link do evento</label>
+          <span>(comece com https://)</span> <br />
+          <input id="url" type="url" required /> <br />
+
+          <label for="whatsapp">Whatsapp para contato</label>
+          <span>(somente números)</span> <br />
+          <input id="whatsapp" type="tel" maxlength="11" required /> <br />
+
+          <label for="text">Informações extras</label> <br />
+          <input id="text" type="text" maxlength="140" /> <br />
+
+          <label for="category-select">Categoria</label> <br />
+          <select name="category" id="category-select" required>
+            <option id="label-category" value="">Tipo do evento</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+          <br />
+
+          <h2>Privacidade</h2>
+          <hr />
+
+          <label for="e-mail">E-mail do administrador</label>
+          <span>(digite um e-mail válido)</span> <br />
+          <input id="e-mail" type="email" required /> <br />
+
+          <label for="password">Senha de acesso para os participantes</label>
+          <span>(mínimo 8 caracteres)</span><br />
+          <input id="password" type="passwrod" minlength="8" required /> <br />
+
+          <input id="check" name="private" type="checkbox" required />
+          <label for="check">Evento privado</label> <br />
+
+          <h2>Dia e hora</h2>
+          <hr />
+
+          <label for="date">Data</label> <br />
+          <input id="date" type="date" required /> <br />
+
+          <label for="start-time">Início</label> <br />
+          <input id="start-time" type="time" required /> <br />
+
+          <label for="end-time">Fim</label> <br />
+          <input id="end-time" type="time" required /> <br />
+        </fieldset>
+      </form>
+
+      <footer>
+        <button type="submit" id="event">Salvar evento</button>
+      </footer>
+    </main>
+  </body>
+</html>
