@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+   font-size: 62.5%;
+  
+  --font-title: font-family: 'Archivo', sans-serif;
+  --font-body: font-family: 'Poppins', sans-serif;
+  --bg-body: #d9d9d9;
+  --bg-header: #121214;
+  --bg-form: #FAFAFC;
+  --h3-header: #42D3FF;
+  --h2-form: #32264D;
+  --lb-title: #4E4958;
+  --lb-light: #C1BCCC;
+  --bg-submit: #F0F0F4;
+  --button: #04D361;
+}
+
