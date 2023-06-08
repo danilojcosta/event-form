@@ -55,7 +55,6 @@ header h3 {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.6rem;
-
 }
 
 /*  FORM  */
@@ -69,15 +68,8 @@ form {
 
   background: var(--bg-form);
   border-radius: 8px 8px 0px 0px;
-}
 
-form h2 {
-  font-family: var(--font-title);
-  font-weight: 600;
-  font-size: 2.4rem;
-  line-height: 3.4rem;
-
-  color: var(--h2-form);
+  padding: 6.4rem;
 }
 
 form hr {
@@ -87,3 +79,20 @@ form hr {
 form p {
   
 }
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  width: 60rem;
+  height: 5rem;
+  
+  font-family: var(--font-title);
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+
+  color: var(--h2-form);
+}
+

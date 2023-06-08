@@ -31,7 +31,7 @@
 
       <form name="event" action="#">
         <fieldset>
-          <h2>Informações do Evento</h2>
+          <legend>Informações do Evento</legend>
           <hr />
 
           <label for="title">Título do envento</label>
@@ -56,9 +56,12 @@
             <option value=""></option>
             <option value=""></option>
           </select>
+          
           <br />
+        </fieldset>
 
-          <h2>Privacidade</h2>
+        <fieldset>
+          <legend>Privacidade</legend>
           <hr />
 
           <label for="e-mail">E-mail do administrador</label>
@@ -71,8 +74,10 @@
 
           <input id="check" name="private" type="checkbox" required />
           <label for="check">Evento privado</label> <br />
+        </fieldset>
 
-          <h2>Dia e hora</h2>
+        <fieldset>
+          <legend>Dia e hora</legend>
           <hr />
 
           <label for="date">Data</label> <br />
@@ -84,6 +89,7 @@
           <label for="end-time">Fim</label> <br />
           <input id="end-time" type="time" required /> <br />
         </fieldset>
+
       </form>
 
       <footer>
