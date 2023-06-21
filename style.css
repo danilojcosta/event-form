@@ -13,8 +13,8 @@
   --bg-form: #FAFAFC;
   --h3-header: #42D3FF;
   --h2-form: #32264D;
-  --lb-title: #4E4958;
-  --lb-light: #C1BCCC;
+  --lb-title: #44404d;
+  --lb-light: #716f74;
   --bg-submit: #F0F0F4;
   --button: #04D361;
   --border-input: #E6E6F0;
@@ -106,7 +106,7 @@ label {
 span {
   margin-left: 2rem;
   color: var(--lb-light);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 2.4rem;
   font-family: var(--font-body);
 }
