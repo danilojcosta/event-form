@@ -112,7 +112,8 @@ span {
 }
 
 input,
-select {
+select,
+textarea {
   box-sizing: border-box;
   margin: 0.8rem 0 2.4rem;
 
@@ -125,8 +126,8 @@ select {
 }
 
 textarea {
-  width: 608px;
-  height: 168px;
+  width: 60.8rem;
+  height: 16.8rem;
   flex-shrink: 0;
 
   border-radius: 8px;

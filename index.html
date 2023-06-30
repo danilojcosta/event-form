@@ -17,85 +17,88 @@
   </head>
   <body>
     <div class="page">
-          <main>
-      <header>
-        <h1>
-          Crie e compartilhe <br />
-          seu evento.
-        </h1>
-        <h3>
-          O primeiro passo, é preencher esse <br />
-          formulário de inscrição.
-        </h3>
-      </header>
+      <main>
+        <header>
+          <h1>
+            Crie e compartilhe <br />
+            seu evento.
+          </h1>
+          <h3>
+            O primeiro passo, é preencher esse <br />
+            formulário de inscrição.
+          </h3>
+        </header>
 
-      <form name="event" action="#">
-        <fieldset>
-          <legend>Informações do Evento</legend>
-          <hr />
+        <form name="event" action="#">
+          <fieldset>
+            <legend>Informações do Evento</legend>
+            <hr />
 
-          <label for="title">Título do envento <span>(mínimo 8 caracteres)</span> </label>
-           <br />
-          <input id="title" type="text" minlength="8" required /> <br />
+            <label for="title"
+              >Título do envento <span>(mínimo 8 caracteres)</span>
+            </label>
+            <br />
+            <input id="title" type="text" minlength="8" required /> <br />
 
-          <label for="url">Link do evento</label>
-          <span>(comece com https://)</span> <br />
-          <input id="url" type="url" required /> <br />
+            <label for="url">Link do evento</label>
+            <span>(comece com https://)</span> <br />
+            <input id="url" type="url" required /> <br />
 
-          <label for="whatsapp">Whatsapp para contato</label>
-          <span>(somente números)</span> <br />
-          <input id="whatsapp" type="tel" maxlength="11" required /> <br />
+            <label for="whatsapp">Whatsapp para contato</label>
+            <span>(somente números)</span> <br />
+            <input id="whatsapp" type="tel" maxlength="11" required /> <br />
 
-          <label for="text">Informações extras</label> <br />
-          <textarea id="text" name="textbox"> <br />
+            <label for="text">Informações extras</label> <br />
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+            <br />
 
-          <label for="category-select">Categoria</label> <br />
-          <select name="category" id="category-select" required>
-            <option id="label-category" value="">Tipo do evento</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-          </select>
-          
-          <br />
-        </fieldset>
+            <label for="category-select">Categoria</label> <br />
+            <select name="category" id="category-select" required>
+              <option id="label-category" value="">Tipo do evento</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
 
-        <fieldset>
-          <legend>Privacidade</legend>
-          <hr />
+            <br />
+          </fieldset>
 
-          <label for="e-mail">E-mail do administrador</label>
-          <span>(digite um e-mail válido)</span> <br />
-          <input id="e-mail" type="email" required /> <br />
+          <fieldset>
+            <legend>Privacidade</legend>
+            <hr />
 
-          <label for="password">Senha de acesso para os participantes</label>
-          <span>(mínimo 8 caracteres)</span><br />
-          <input id="password" type="password" minlength="8" required /> <br />
+            <label for="e-mail">E-mail do administrador</label>
+            <span>(digite um e-mail válido)</span> <br />
+            <input id="e-mail" type="email" required /> <br />
 
-          <input id="check" name="private" type="checkbox" required />
-          <label for="check">Evento privado</label> <br />
-        </fieldset>
+            <label for="password">Senha de acesso para os participantes</label>
+            <span>(mínimo 8 caracteres)</span><br />
+            <input id="password" type="password" minlength="8" required />
+            <br />
 
-        <fieldset>
-          <legend>Dia e hora</legend>
-          <hr />
+            <input id="check" name="private" type="checkbox" required />
+            <label for="check">Evento privado</label> <br />
+          </fieldset>
 
-          <label for="date">Data</label> <br />
-          <input id="date" type="date" required /> <br />
+          <fieldset>
+            <legend>Dia e hora</legend>
+            <hr />
 
-          <label for="start-time">Início</label> <br />
-          <input id="start-time" type="time" required /> <br />
+            <label for="date">Data</label> <br />
+            <input id="date" type="date" required /> <br />
 
-          <label for="end-time">Fim</label> <br />
-          <input id="end-time" type="time" required /> <br />
-        </fieldset>
+            <label for="start-time">Início</label> <br />
+            <input id="start-time" type="time" required /> <br />
 
-      </form>
+            <label for="end-time">Fim</label> <br />
+            <input id="end-time" type="time" required /> <br />
+          </fieldset>
+        </form>
 
-      <footer>
-        <button type="submit" id="event">Salvar evento</button>
-      </footer>
-    </main>
+        <footer>
+          <button type="submit" id="event">Salvar evento</button>
+        </footer>
+      </main>
     </div>
   </body>
 </html>
