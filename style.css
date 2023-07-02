@@ -64,7 +64,7 @@ header h3 {
 
 form {
   width: 73rem;
-  height: 70rem;
+  height: auto;
 
   margin-top: 3.8rem;
   min-height: 30rem;
@@ -145,4 +145,11 @@ textarea {
   border-radius: 8px;
   border: 1px solid #e6e6f0;
   background: var(--shapes-02, #fafafc);
+}
+
+#check {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
 }

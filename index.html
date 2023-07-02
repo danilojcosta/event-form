@@ -34,30 +34,30 @@
             <legend>Informações do Evento</legend>
             <hr />
 
-            <label for="title"
+            <label for="event-title"
               >Título do envento <span>(mínimo 8 caracteres)</span>
             </label>
             <br />
-            <input id="title" type="text" minlength="8" required /> <br />
+            <input id="event-title" type="text" minlength="8" required /> <br />
 
-            <label for="url">Link do evento</label>
+            <label for="event-url">Link do evento</label>
             <span>(comece com https://)</span> <br />
-            <input id="url" type="url" required /> <br />
+            <input id="event-url" type="url" required /> <br />
 
-            <label for="whatsapp">Whatsapp para contato</label>
+            <label for="event-whatsapp">Whatsapp para contato</label>
             <span>(somente números)</span> <br />
-            <input id="whatsapp" type="number" maxlength="11" required /> <br />
+            <input id="event-whatsapp" type="number" maxlength="11" required /> <br />
 
-            <label for="text">Informações extras</label> <br />
-            <textarea name="text" id="text" type="text cols="30" rows="10"></textarea>
+            <label for="event-info">Informações extras</label> <br />
+            <textarea name="event-info" id="event-info" type="text"></textarea>
             <br />
 
-            <label for="category-select">Categoria</label> <br />
-            <select name="category" id="category-select" required>
+            <label for="event-category-select">Categoria</label> <br />
+            <select name="event-category" id="event-category-select" required>
               <option id="label-category" value="">Tipo do evento</option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
+              <option value="Shows">Show ao vivo</option>
+              <option value="Metting">Reunião</option>
+              <option value="Presentantion">Apresentação</option>
             </select>
 
             <br />
