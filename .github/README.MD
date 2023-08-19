@@ -9,6 +9,6 @@ Aqui está o resultado da prática de um exercício proposto pela Rocketseat den
 - Responsividade;
 - Semântica;
 
-OBS: Ao lado o link para acesso está disponível.
+OBS: Ao lado o link para acessar.
 
 Made by Danilo and Rocketseat.
