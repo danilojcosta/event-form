@@ -121,7 +121,7 @@ textarea {
 
   height: 5.6rem;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 0.8rem;
 
   background: (var(--bg-form));
   border: 1px solid var(--border-input);
@@ -150,7 +150,7 @@ textarea {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 
-  border-radius: 8px;
+  border-radius: 0.8rem;
   border: 1px solid #e6e6f0;
   background: var(--shapes-02, #fafafc);
 }
@@ -158,6 +158,44 @@ textarea {
 #check {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1.6rem;
   align-self: stretch;
+  width: 2.5rem;
+
+  border-radius: 0.8rem;
+  background: (var(--bg-form));
+  border: 1px solid var(--border-);
+}
+
+#box-date-time {
+  display: flex;
+  gap: 0.8rem;
+}
+
+#date {
+  width: 20rem;
+}
+
+#start-time, #end-time {
+  width: 13rem;
+}
+
+#event {
+  display: flex;
+  width: 60.8rem;
+  height: 5.6rem;
+  padding: 1.5rem 4.0rem;
+  margin: auto;
+  margin-bottom: 4.0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.0rem;
+  flex-shrink: 0;
+  font-family: var(--font-title);
+  border: none;
+
+  color: #FFFFFF;
+
+  border-radius: 0.8rem;
+  background: var(--button);
 }

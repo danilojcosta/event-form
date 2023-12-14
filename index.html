@@ -76,22 +76,27 @@
             <input id="password" type="password" minlength="8" required />
             <br />
 
-            <input id="check" name="private" type="checkbox" required />
-            <label for="check">Evento privado</label> <br />
+            <div id="box-private-event">
+              <input id="check" name="private" type="checkbox" required />
+              
+              <label for="check">Evento privado</label> <br />
+            </div>
           </fieldset>
 
           <fieldset>
             <legend>Dia e hora</legend>
             <hr />
+            
+            <div id="box-date-time"> 
+              <label for="date">Data</label> <br />
+              <input id="date" type="date" required /> <br />
 
-            <label for="date">Data</label> <br />
-            <input id="date" type="date" required /> <br />
+              <label for="start-time">Início</label> <br />
+              <input id="start-time" type="time" required /> <br />
 
-            <label for="start-time">Início</label> <br />
-            <input id="start-time" type="time" required /> <br />
-
-            <label for="end-time">Fim</label> <br />
-            <input id="end-time" type="time" required /> <br />
+              <label for="end-time">Fim</label> <br />
+              <input id="end-time" type="time" required /> <br />
+            </div>
           </fieldset>
         </form>
 
