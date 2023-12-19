@@ -17,16 +17,15 @@
   </head>
   <body>
     <div class="page">
-      <main>
         <header>
           <h1>
             Crie e compartilhe <br />
             seu evento.
           </h1>
-          <h3>
+          <p>
             O primeiro passo, é preencher esse <br />
             formulário de inscrição.
-          </h3>
+          </p>
         </header>
 
         <form name="event" action="#">
@@ -76,8 +75,8 @@
             <input id="password" type="password" minlength="8" required />
             <br />
 
-            <div id="box-private-event">
-              <input id="check" name="private" type="checkbox" required />
+            <div class="checkbox-wrapper">
+              <input name="private" type="checkbox" required />
               
               <label for="check">Evento privado</label> <br />
             </div>
@@ -103,7 +102,6 @@
         <footer>
           <button type="submit" id="event">Salvar evento</button>
         </footer>
-      </main>
     </div>
   </body>
 </html>
