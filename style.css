@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-body, input, button, select, textarea {
+body,
+input,
+button,
+select,
+textarea {
   font-family: "Poppins", sans-serif;
 }
 
@@ -13,7 +17,7 @@ body {
 }
 
 body::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 368px;
 
@@ -35,7 +39,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -71,18 +75,18 @@ fieldset {
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px
+  gap: 24px;
 }
 
 fieldset legend {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
 
   width: 100%;
 
-  border-bottom:  1px solid #e6e6f0;
+  border-bottom: 1px solid #e6e6f0;
   padding-bottom: 16px;
 }
 
@@ -108,7 +112,7 @@ fieldset legend {
   color: #6c6a71;
 }
 
-.input-wrapper input, 
+.input-wrapper input,
 .input-wrapper textarea,
 .input-wrapper select {
   background: #fafafc;
@@ -117,7 +121,7 @@ fieldset legend {
   border-radius: 8px;
 
   height: 56px;
-  
+
   padding: 0 24px;
 
   font-size: 16px;
@@ -143,3 +147,47 @@ fieldset legend {
 .three-col > div:nth-child(1) {
   width: 100%;
 }
+
+.checkbox-wrapper {
+ position: relative;
+}
+
+.checkbox-wrapper label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin: 0;
+}
+
+.checkbox-wrapper input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+
+  opacity: 0;
+}
+
+.checkbox-wrapper label::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: block;
+
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+}
+
+.checkbox-wrapper input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='14' viewBox='0 0 18 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 11.17L1.83 7L0.410004 8.41L6 14L18 2L16.59 0.589996L6 11.17Z' fill='%2342D3FF'/%3E%3C/svg%3E%0A");
+
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.checkbox-wrapper input:focus + label::before {
+  outline: 2px solid black;
+}
+
