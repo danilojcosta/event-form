@@ -1,7 +1,7 @@
 # Formulário de Eventos 📝
 
 <p align="center">
-  <img alt="Formulário de Eventos" src="./assets/preview.png" width="100%">
+  <img alt="Formulário de Eventos" src="./preview.png" width="100%">
 </p>
 
 
@@ -14,6 +14,8 @@ Aqui está o resultado da prática de um exercício proposto pela Rocketseat den
 - GIT E GITHUB;
 - FIGMA;
 
-- [Visite o projeto online](https://danilojcosta.github.io/event-form/)
+## 💻 Visite o site 
+
+[Formulário de Eventos](https://danilojcosta.github.io/event-form/)
 
 Made by Danilo and Rocketseat.
