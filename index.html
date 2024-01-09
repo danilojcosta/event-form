@@ -22,7 +22,7 @@
         <p>O primeiro passo, é preencher esse 
           formulário de inscrição.</p>
       </header>
-      <form>
+      <form id="event-form">
 
         <fieldset>
           <div class="fieldset-wrapper">
@@ -43,13 +43,20 @@
               
               <div class="input-wrapper">
                 <label for="event-whatsapp">Whatsapp para contato
-                <span>(somente números)</span> </label>
-                <input id="event-whatsapp" type="number" maxlength="11" required />
+                <span>(somente números)</span></label>
+                <input 
+                  id="event-whatsapp" 
+                  type="number" 
+                  maxlength="11" 
+                  required />
               </div>
 
               <div class="input-wrapper">
                 <label for="event-info">Informações extras</label>
-                <textarea id="event-info" type="text"></textarea>
+                <textarea 
+                  id="event-info" 
+                  type="text"
+                  required></textarea>
               </div>
 
             <div class="input-wrapper">
@@ -74,7 +81,8 @@
               
               <div class="input-wrapper">
                 <label for="event-password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span><label>
-                <input id="event-password" type="password" required />
+                <input id="event-password" type="password" required
+                minlength="8" />
               </div>
 
               <div class="checkbox-wrapper">
@@ -106,12 +114,20 @@
               </div>
           </div>
         </fieldset>
+        <!--
+           Todo button que for colocado dentro do formulario
+           vai ser compreendido como submit, é necessário 
+           usar button type:"button" ou então usar o input
+           type:"button"
+        -->
       </form>
-
-<!-- Parei em checkbox customizado-->
-
       <footer>
-        <button type="submit" id="event">Salvar evento</button>
+        <button 
+          class="button" 
+          type="submit" 
+          form="event-form">
+          Salvar evento
+        </button>
       </footer>
     </div>
   </body>
