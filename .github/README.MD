@@ -5,7 +5,7 @@
 </p>
 
 
-Aqui está o resultado da prática de um exercício proposto pela Rocketseat dentro da trilha EXPLORER nível 4.
+Aqui está o resultado da prática de um exercício proposto pela Rocketseat dentro da trilha EXPLORER nível 3.
 
 ## 🚀 Tecnologias
 
